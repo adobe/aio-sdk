@@ -17,9 +17,9 @@
   "dependencies": {
     "@adobe/aio-lib-target": "^1.0.0",
     "@adobe/aio-lib-analytics": "^1.0.0",
-    "@adobe/aio-lib-campaign-standard": "^1.1.0",
-    "@adobe/aio-lib-files": "^0.3.0",
-    "@adobe/aio-lib-state": "^0.3.0",
+    "@adobe/aio-lib-campaign-standard": "^2.0.0",
+    "@adobe/aio-lib-files": "^1.0.2",
+    "@adobe/aio-lib-state": "^1.0.2",
     "@adobe/aio-sdk-core": "^1.0.0"
   },
   "devDependencies": {
