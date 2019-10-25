@@ -1,0 +1,38 @@
+{
+  "name": "@adobe/aio-sdk",
+  "version": "1.0.0",
+  "description": "Module that contains all the Adobe I/O SDKs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm run lint && jest --coverage",
+    "lint": "eslint .",
+    "docs": "jsdoc2md -f 'src/*.js' > doc/api.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adobe/aio-sdk.git"
+  },
+  "author": "Adobe Inc.",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@adobe/aio-lib-target": "^1.0.0",
+    "@adobe/aio-lib-analytics": "^1.0.0",
+    "@adobe/aio-lib-campaign-standard": "^1.1.0",
+    "@adobe/aio-lib-files": "^0.3.0",
+    "@adobe/aio-lib-state": "^0.3.0",
+    "@adobe/aio-sdk-core": "^1.0.0"
+  },
+  "devDependencies": {
+    "codecov": "^3.6.1",
+    "eslint": "^6.4.0",
+    "eslint-config-import": "^0.13.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^24.9.0",
+    "jsdoc-to-markdown": "^5.0.1"
+  }
+}
