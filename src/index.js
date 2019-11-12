@@ -11,10 +11,10 @@ governing permissions and limitations under the License.
 
 const Core = require('@adobe/aio-sdk-core')
 const State = require('@adobe/aio-lib-state')
-const Files = require('@adobe/aio-lib-files')
 const Target = require('@adobe/aio-lib-target')
 const Analytics = require('@adobe/aio-lib-analytics')
 const CampaignStandard = require('@adobe/aio-lib-campaign-standard')
+const Files = require('@adobe/aio-lib-files')
 
 /** @module @adobe/aio-sdk */
 module.exports = {
