@@ -1,0 +1,9 @@
+[
+    "adobe/generator-aio-app",
+    "adobe/aio-lib-target",
+    "adobe/aio-lib-analytics",
+    "adobe/aio-lib-campaign-standard",
+    "adobe/aio-lib-files",
+    "adobe/aio-lib-state",
+    "adobe/aio-sdk-core"
+]
