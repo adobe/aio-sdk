@@ -15,7 +15,7 @@
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@adobe/aio-lib-target": "^1.0.2",
+    "@adobe/aio-lib-target": "^2.0.1",
     "@adobe/aio-lib-analytics": "^1.0.2",
     "@adobe/aio-lib-campaign-standard": "^2.0.1",
     "@adobe/aio-lib-files": "^1.0.3",
