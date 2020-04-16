@@ -18,4 +18,5 @@ test('module existence', () => {
   expect(Sdk.Target).toBeTruthy()
   expect(Sdk.Analytics).toBeTruthy()
   expect(Sdk.CampaignStandard).toBeTruthy()
+  expect(Sdk.CustomerProfile).toBeTruthy()
 })

@@ -9,6 +9,7 @@
     * [.Target](#module_@adobe/aio-sdk.Target)
     * [.Analytics](#module_@adobe/aio-sdk.Analytics)
     * [.CampaignStandard](#module_@adobe/aio-sdk.CampaignStandard)
+    * [.CustomerProfile](#module_@adobe/aio-sdk.CustomerProfile)
 
 <a name="module_@adobe/aio-sdk.Core"></a>
 
@@ -52,3 +53,10 @@ The Adobe Campaign Standard module of the Adobe I/O SDK
 
 **Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
 **See**: [@adobe/aio-lib-campaign-standard](https://github.com/adobe/aio-lib-campaign-standard/blob/master/README.md)  
+<a name="module_@adobe/aio-sdk.CustomerProfile"></a>
+
+### @adobe/aio-sdk.CustomerProfile
+The Adobe Experience Platform Real-Time Customer Profile module of the Adobe I/O SDK
+
+**Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
+**See**: [@adobe/aio-lib-customer-profile](https://github.com/adobe/aio-lib-customer-profile/blob/master/README.md)  

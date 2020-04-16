@@ -24,6 +24,7 @@ This is the Adobe I/O SDK. This contains:
 - [Adobe Target Library](https://github.com/adobe/aio-lib-target)
 - [Adobe Analytics Library](https://github.com/adobe/aio-lib-analytics)
 - [Adobe Campaign Standard Library](https://github.com/adobe/aio-lib-campaign-standard)
+- [Adobe Customer Profile Library](https://github.com/adobe/aio-lib-customer-profile)
 
 [SDK Health](./health.md)
 
@@ -38,7 +39,7 @@ Here is a snippet:
 ```javascript
 const adobeIOSdk = require('@adobe/aio-sdk')
 // OR ...
-const { Core, State, Files, Target, Analytics, CampaignStandard } = require('@adobe/aio-sdk')
+const { Core, State, Files, Target, Analytics, CampaignStandard, CustomerProfile } = require('@adobe/aio-sdk')
 
 // Core example
 // set a config value using the Core SDK Config module
@@ -67,6 +68,15 @@ const collections = await analyticsClient.getCollections({limit:5, page:0})
 // Campaign Standard example
 const campaignStandardClient = await CampaignStandard.init('<tenant>', 'x-api-key', '<valid auth token>')
 const profiles = await campaignStandardClient.getAllProfiles({ filters: [ 'byCRMId' ], hasCustomFilter: true })
+
+// Customer Profile example
+const customerProfileClient = await CustomerProfile.init('<tenant>', '<imsOrgId>', 'x-api-key', '<valid auth token>', '[sandbox]')
+const profileParams = {
+      entityId: '<entityId>',
+      entityIdNS: '<entityIdNS>'
+    }
+const customerProfile = await customerProfileClient.getProfile(profileParams)
+
 ```
 
 ## Explore
