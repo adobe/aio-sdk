@@ -63,7 +63,7 @@ module.exports = {
    */
   CustomerProfile,
   /**
-  * The Adobe Experience Platform Real-Time Customer Profile module of the Adobe I/O SDK
+  * The Adobe Audience Manager Customer Data module of the Adobe I/O SDK
   *
   * @see {@link https://github.com/adobe/aio-lib-audience-manager-cd/blob/master/README.md|@adobe/aio-lib-audience-manager-cd}
   */
