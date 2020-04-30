@@ -10,6 +10,7 @@
     * [.Analytics](#module_@adobe/aio-sdk.Analytics)
     * [.CampaignStandard](#module_@adobe/aio-sdk.CampaignStandard)
     * [.CustomerProfile](#module_@adobe/aio-sdk.CustomerProfile)
+    * [.AudienceManagerCD](#module_@adobe/aio-sdk.AudienceManagerCD)
 
 <a name="module_@adobe/aio-sdk.Core"></a>
 
@@ -60,3 +61,10 @@ The Adobe Experience Platform Real-Time Customer Profile module of the Adobe I/O
 
 **Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
 **See**: [@adobe/aio-lib-customer-profile](https://github.com/adobe/aio-lib-customer-profile/blob/master/README.md)  
+<a name="module_@adobe/aio-sdk.AudienceManagerCD"></a>
+
+### @adobe/aio-sdk.AudienceManagerCD
+The Adobe Audience Manager Customer Data module of the Adobe I/O SDK
+
+**Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
+**See**: [@adobe/aio-lib-audience-manager-cd](https://github.com/adobe/aio-lib-audience-manager-cd/blob/master/README.md)  

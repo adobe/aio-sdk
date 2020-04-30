@@ -1,4 +1,5 @@
 [
+    "adobe/aio-lib-audience-manager-cd",
     "adobe/aio-lib-customer-profile",
     "adobe/generator-aio-app",
     "adobe/aio-lib-target",
