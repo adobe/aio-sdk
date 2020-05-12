@@ -26,6 +26,7 @@ This is the Adobe I/O SDK. This contains:
 - [Adobe Campaign Standard Library](https://github.com/adobe/aio-lib-campaign-standard)
 - [Adobe Customer Profile Library](https://github.com/adobe/aio-lib-customer-profile)
 - [Adobe Audience Manager Customer Data Library](https://github.com/adobe/aio-lib-audience-manager-cd)
+- [Adobe I/O Events](https://github.com/adobe/aio-lib-events)
 
 [SDK Health](./health.md)
 
@@ -40,7 +41,7 @@ Here is a snippet:
 ```javascript
 const adobeIOSdk = require('@adobe/aio-sdk')
 // OR ...
-const { Core, State, Files, Target, Analytics, CampaignStandard, CustomerProfile, AudienceManagerCD } = require('@adobe/aio-sdk')
+const { Core, State, Files, Target, Analytics, CampaignStandard, CustomerProfile, AudienceManagerCD, Events } = require('@adobe/aio-sdk')
 
 // Core example
 // set a config value using the Core SDK Config module
@@ -85,6 +86,10 @@ const profiles = {
       entityIdNS: '<entityIdNS>'
     }
 const AudienceManagerCD = await AudienceManagerCDClient.getProfile(profiles)
+
+// Adobe I/O Events sample
+const eventsSDKClient = await Events.init('<orgId>', '<api-key>', '<valid JWT token>', '<http options>')
+const eventsProviders = await eventsSDKClient.getAllProviders('<consumerOrgId>')
 
 ```
 

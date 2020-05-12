@@ -22,7 +22,8 @@
     "@adobe/aio-lib-files": "^1.0.3",
     "@adobe/aio-lib-state": "^1.0.3",
     "@adobe/aio-lib-target": "^2.0.1",
-    "@adobe/aio-sdk-core": "^1.1.0"
+    "@adobe/aio-sdk-core": "^1.1.0",
+    "@adobe/aio-lib-events": "^1.0.0"
   },
   "devDependencies": {
     "codecov": "^3.6.1",
