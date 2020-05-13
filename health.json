@@ -1,11 +1,14 @@
 [
+    "adobe/aio-sdk-core",
     "adobe/aio-lib-audience-manager-cd",
     "adobe/aio-lib-customer-profile",
-    "adobe/generator-aio-app",
     "adobe/aio-lib-target",
     "adobe/aio-lib-analytics",
     "adobe/aio-lib-campaign-standard",
+    "adobe/aio-lib-events",
+    "adobe/aio-lib-console",
+    "adobe/generator-aio-app",
+    "adobe/generator-aio-console",
     "adobe/aio-lib-files",
-    "adobe/aio-lib-state",
-    "adobe/aio-sdk-core"
+    "adobe/aio-lib-state"
 ]
