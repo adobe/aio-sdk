@@ -10,6 +10,7 @@ governing permissions and limitations under the License.
 */
 
 const Core = require('@adobe/aio-sdk-core')
+const Events = require('@adobe/aio-lib-events')
 const State = require('@adobe/aio-lib-state')
 const Target = require('@adobe/aio-lib-target')
 const Analytics = require('@adobe/aio-lib-analytics')
@@ -17,7 +18,6 @@ const CampaignStandard = require('@adobe/aio-lib-campaign-standard')
 const Files = require('@adobe/aio-lib-files')
 const CustomerProfile = require('@adobe/aio-lib-customer-profile')
 const AudienceManagerCD = require('@adobe/aio-lib-audience-manager-cd')
-
 /** @module @adobe/aio-sdk */
 module.exports = {
   /**
@@ -67,6 +67,11 @@ module.exports = {
   *
   * @see {@link https://github.com/adobe/aio-lib-audience-manager-cd/blob/master/README.md|@adobe/aio-lib-audience-manager-cd}
   */
-  AudienceManagerCD
-
+  AudienceManagerCD,
+  /**
+   * The Adobe I/O Events module of the Adobe I/O SDK
+   *
+   * @see {@link https://github.com/adobe/aio-lib-events/blob/master/README.md|@adobe/aio-lib-events}
+   */
+  Events
 }
