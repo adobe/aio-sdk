@@ -1,6 +1,6 @@
 {
   "name": "@adobe/aio-sdk",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "description": "Module that contains all the Adobe I/O SDKs",
   "main": "src/index.js",
   "scripts": {
