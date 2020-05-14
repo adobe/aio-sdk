@@ -6,6 +6,7 @@
   "scripts": {
     "test": "npm run lint && jest --coverage",
     "lint": "eslint .",
+    "gen-health": "gen-health-table health.json",
     "docs": "jsdoc2md src/**/*.js > doc/api.md"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "@adobe/aio-lib-events": "^1.0.0"
   },
   "devDependencies": {
+    "@adobe/gen-health-table": "^1.0.1",
     "codecov": "^3.6.1",
     "eslint": "^6.4.0",
     "eslint-config-import": "^0.13.0",
