@@ -9,13 +9,13 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
+const Files = require('@adobe/aio-lib-files')
 const Core = require('@adobe/aio-sdk-core')
 const Events = require('@adobe/aio-lib-events')
 const State = require('@adobe/aio-lib-state')
 const Target = require('@adobe/aio-lib-target')
 const Analytics = require('@adobe/aio-lib-analytics')
 const CampaignStandard = require('@adobe/aio-lib-campaign-standard')
-const Files = require('@adobe/aio-lib-files')
 const CustomerProfile = require('@adobe/aio-lib-customer-profile')
 const AudienceManagerCD = require('@adobe/aio-lib-audience-manager-cd')
 /** @module @adobe/aio-sdk */
