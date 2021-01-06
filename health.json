@@ -5,6 +5,8 @@
     "adobe/aio-lib-target",
     "adobe/aio-lib-analytics",
     "adobe/aio-lib-campaign-standard",
+    "adobe/aio-lib-magento",
+    "adobe/aio-sdk-core"
     "adobe/aio-lib-events",
     "adobe/aio-lib-console",
     "adobe/generator-aio-app",
