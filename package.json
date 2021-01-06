@@ -1,12 +1,13 @@
 {
   "name": "@adobe/aio-sdk",
-  "version": "1.1.0",
+  "version": "2.3.1",
   "description": "Module that contains all the Adobe I/O SDKs",
   "main": "src/index.js",
   "scripts": {
     "test": "npm run lint && jest --coverage",
     "lint": "eslint .",
-    "docs": "jsdoc2md -f 'src/*.js' > doc/api.md"
+    "gen-health": "gen-health-table health.json",
+    "docs": "jsdoc2md src/**/*.js > doc/api.md"
   },
   "repository": {
     "type": "git",
@@ -15,14 +16,18 @@
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@adobe/aio-lib-target": "^1.0.2",
-    "@adobe/aio-lib-analytics": "^1.0.2",
+    "@adobe/aio-lib-analytics": "^2.0.0",
+    "@adobe/aio-lib-audience-manager-cd": "^1.0.1",
     "@adobe/aio-lib-campaign-standard": "^2.0.1",
+    "@adobe/aio-lib-customer-profile": "^1.0.2",
     "@adobe/aio-lib-files": "^1.0.3",
     "@adobe/aio-lib-state": "^1.0.3",
-    "@adobe/aio-sdk-core": "^1.1.0"
+    "@adobe/aio-lib-target": "^2.0.2",
+    "@adobe/aio-sdk-core": "^1.1.0",
+    "@adobe/aio-lib-events": "^1.0.0"
   },
   "devDependencies": {
+    "@adobe/gen-health-table": "^1.0.1",
     "codecov": "^3.6.1",
     "eslint": "^6.4.0",
     "eslint-config-import": "^0.13.0",

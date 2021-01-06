@@ -9,6 +9,9 @@
     * [.Target](#module_@adobe/aio-sdk.Target)
     * [.Analytics](#module_@adobe/aio-sdk.Analytics)
     * [.CampaignStandard](#module_@adobe/aio-sdk.CampaignStandard)
+    * [.CustomerProfile](#module_@adobe/aio-sdk.CustomerProfile)
+    * [.AudienceManagerCD](#module_@adobe/aio-sdk.AudienceManagerCD)
+    * [.Events](#module_@adobe/aio-sdk.Events)
 
 <a name="module_@adobe/aio-sdk.Core"></a>
 
@@ -52,3 +55,24 @@ The Adobe Campaign Standard module of the Adobe I/O SDK
 
 **Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
 **See**: [@adobe/aio-lib-campaign-standard](https://github.com/adobe/aio-lib-campaign-standard/blob/master/README.md)  
+<a name="module_@adobe/aio-sdk.CustomerProfile"></a>
+
+### @adobe/aio-sdk.CustomerProfile
+The Adobe Experience Platform Real-Time Customer Profile module of the Adobe I/O SDK
+
+**Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
+**See**: [@adobe/aio-lib-customer-profile](https://github.com/adobe/aio-lib-customer-profile/blob/master/README.md)  
+<a name="module_@adobe/aio-sdk.AudienceManagerCD"></a>
+
+### @adobe/aio-sdk.AudienceManagerCD
+The Adobe Audience Manager Customer Data module of the Adobe I/O SDK
+
+**Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
+**See**: [@adobe/aio-lib-audience-manager-cd](https://github.com/adobe/aio-lib-audience-manager-cd/blob/master/README.md)  
+<a name="module_@adobe/aio-sdk.Events"></a>
+
+### @adobe/aio-sdk.Events
+The Adobe I/O Events module of the Adobe I/O SDK
+
+**Kind**: static property of [<code>@adobe/aio-sdk</code>](#module_@adobe/aio-sdk)  
+**See**: [@adobe/aio-lib-events](https://github.com/adobe/aio-lib-events/blob/master/README.md)  
