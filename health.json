@@ -13,5 +13,6 @@
     "adobe/generator-aio-console",
     "adobe/aio-lib-files",
     "adobe/aio-lib-state",
-    "adobe/aio-lib-events"
+    "adobe/aio-lib-events",
+    "adobe/aio-lib-runtime"
 ]
