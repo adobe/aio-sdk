@@ -14,5 +14,8 @@
     "adobe/aio-lib-files",
     "adobe/aio-lib-state",
     "adobe/aio-lib-events",
-    "adobe/aio-lib-runtime"
+    "adobe/aio-lib-runtime",
+    "adobe/aio-lib-console",
+    "adobe/aio-lib-web",
+    "adobe/aio-lib-env"
 ]
