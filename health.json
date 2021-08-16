@@ -6,12 +6,16 @@
     "adobe/aio-lib-analytics",
     "adobe/aio-lib-campaign-standard",
     "adobe/aio-lib-magento",
-    "adobe/aio-sdk-core"
+    "adobe/aio-sdk-core",
     "adobe/aio-lib-events",
     "adobe/aio-lib-console",
     "adobe/generator-aio-app",
     "adobe/generator-aio-console",
     "adobe/aio-lib-files",
     "adobe/aio-lib-state",
-    "adobe/aio-lib-events"
+    "adobe/aio-lib-events",
+    "adobe/aio-lib-runtime",
+    "adobe/aio-lib-console",
+    "adobe/aio-lib-web",
+    "adobe/aio-lib-env"
 ]

@@ -27,7 +27,7 @@
     "@adobe/aio-lib-events": "^1.0.0"
   },
   "devDependencies": {
-    "@adobe/gen-health-table": "^1.0.1",
+    "@adobe/gen-health-table": "^2.0.0",
     "codecov": "^3.6.1",
     "eslint": "^6.4.0",
     "eslint-config-import": "^0.13.0",
