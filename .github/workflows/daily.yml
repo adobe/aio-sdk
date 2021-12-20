@@ -7,7 +7,7 @@ on:
 
 jobs:
   build:
-    if: github.repository == 'adobe/aio-sdk'
+    if: github.repository_owner == 'adobe'
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
