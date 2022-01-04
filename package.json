@@ -20,24 +20,25 @@
     "@adobe/aio-lib-audience-manager-cd": "^1.0.1",
     "@adobe/aio-lib-campaign-standard": "^2.1.1",
     "@adobe/aio-lib-customer-profile": "^1.0.2",
+    "@adobe/aio-lib-events": "^1.0.0",
     "@adobe/aio-lib-files": "^2.0.0",
     "@adobe/aio-lib-state": "^1.0.3",
     "@adobe/aio-lib-target": "^2.0.2",
-    "@adobe/aio-sdk-core": "^1.1.0",
-    "@adobe/aio-lib-events": "^1.0.0"
+    "@adobe/aio-sdk-core": "^1.1.0"
   },
   "devDependencies": {
+    "@adobe/eslint-config-aio-lib-config": "^1.4.0",
     "@adobe/gen-health-table": "^2.0.0",
     "codecov": "^3.6.1",
-    "eslint": "^6.4.0",
-    "eslint-config-import": "^0.13.0",
-    "eslint-config-standard": "^14.1.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^23.0.3",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jest": "^23.20.0",
+    "eslint-plugin-jsdoc": "^37.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.2.0",
     "jest": "^24.9.0",
-    "jsdoc-to-markdown": "^5.0.1"
+    "jsdoc-to-markdown": "^5.0.1",
+    "typescript": "^4.5.4"
   }
 }
