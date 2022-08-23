@@ -16,15 +16,15 @@
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "dependencies": {
-    "@adobe/aio-lib-analytics": "^2.0.0",
-    "@adobe/aio-lib-audience-manager-cd": "^1.0.1",
-    "@adobe/aio-lib-campaign-standard": "^2.1.1",
-    "@adobe/aio-lib-customer-profile": "^1.0.2",
-    "@adobe/aio-lib-events": "^1.0.0",
-    "@adobe/aio-lib-files": "^2.0.0",
-    "@adobe/aio-lib-state": "^1.0.3",
-    "@adobe/aio-lib-target": "^2.0.2",
-    "@adobe/aio-sdk-core": "^1.1.0"
+    "@adobe/aio-lib-analytics": "^3.0.0",
+    "@adobe/aio-lib-audience-manager-cd": "^2.0.0",
+    "@adobe/aio-lib-campaign-standard": "^3.0.0",
+    "@adobe/aio-lib-customer-profile": "^2.0.0",
+    "@adobe/aio-lib-events": "^2.0.2",
+    "@adobe/aio-lib-files": "^3.0.0",
+    "@adobe/aio-lib-state": "^2.0.1",
+    "@adobe/aio-lib-target": "^3.0.0",
+    "@adobe/aio-sdk-core": "^2.0.0"
   },
   "devDependencies": {
     "@adobe/eslint-config-aio-lib-config": "^1.4.0",
