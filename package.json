@@ -20,7 +20,7 @@
     "@adobe/aio-lib-audience-manager-cd": "^2.0.0",
     "@adobe/aio-lib-campaign-standard": "^3.0.0",
     "@adobe/aio-lib-customer-profile": "^2.0.0",
-    "@adobe/aio-lib-events": "^2.0.2",
+    "@adobe/aio-lib-events": "^3.0.0",
     "@adobe/aio-lib-files": "^3.0.0",
     "@adobe/aio-lib-state": "^2.0.1",
     "@adobe/aio-lib-target": "^3.0.0",
