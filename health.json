@@ -1,6 +1,5 @@
 [
     "adobe/aio-sdk-core",
-    "adobe/aio-lib-audience-manager-cd",
     "adobe/aio-lib-customer-profile",
     "adobe/aio-lib-target",
     "adobe/aio-lib-analytics",
