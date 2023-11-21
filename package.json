@@ -13,9 +13,6 @@
     "type": "git",
     "url": "https://github.com/adobe/aio-sdk.git"
   },
-  "engines": {
-    "node": ">=18"
-  },
   "author": "Adobe Inc.",
   "license": "Apache-2.0",
   "dependencies": {
