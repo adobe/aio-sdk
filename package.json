@@ -1,7 +1,7 @@
 {
   "name": "@adobe/aio-sdk",
   "version": "4.1.0",
-  "description": "Module that contains all the Adobe I/O SDKs",
+  "description": "Module that contains all the Adobe Developer Platform SDKs",
   "main": "src/index.js",
   "scripts": {
     "test": "npm run lint && jest --coverage",
