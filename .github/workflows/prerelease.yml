@@ -13,7 +13,7 @@ on:
       dependencies-to-update:
         description: 'csv of dependencies to update with the dist-tag'
         required: false
-        default: '@adobe/aio-lib-analytics,@adobe/aio-lib-audience-manager-cd,@adobe/aio-lib-campaign-standard,@adobe/aio-lib-customer-profile,@adobe/aio-lib-events,@adobe/aio-lib-files,@adobe/aio-lib-state,@adobe/aio-lib-target,@adobe/aio-sdk-core'
+        default: '@adobe/aio-lib-analytics,@adobe/aio-lib-campaign-standard,@adobe/aio-lib-customer-profile,@adobe/aio-lib-events,@adobe/aio-lib-files,@adobe/aio-lib-state,@adobe/aio-lib-target,@adobe/aio-sdk-core'
 
 jobs:
   checkout:
@@ -37,7 +37,7 @@ jobs:
           pre-release-tag: ${{ github.event.inputs.pre-release-tag }}
           dependencies-to-update: ${{ github.event.inputs.dependencies-to-update }}
           dependencies-to-update-version-tag: ${{ github.event.inputs.dist-tag }}
-      - run: echo pre-release-version - ${{ steps.pre-release-version.outputs.pre-release-version }}           
+      - run: echo pre-release-version - ${{ steps.pre-release-version.outputs.pre-release-version }}
       - uses: JS-DevTools/npm-publish@v1
         with:
           token: ${{ secrets.ADOBE_BOT_NPM_TOKEN }}
