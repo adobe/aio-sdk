@@ -1,6 +1,6 @@
 {
   "name": "@adobe/aio-sdk",
-  "version": "4.1.0",
+  "version": "5.0.0",
   "description": "Module that contains all the Adobe Developer Platform SDKs",
   "main": "src/index.js",
   "scripts": {
