@@ -1,6 +1,6 @@
 {
   "name": "@adobe/aio-sdk",
-  "version": "5.0.1",
+  "version": "6.0.0",
   "description": "Module that contains all the Adobe Developer Platform SDKs",
   "main": "src/index.js",
   "scripts": {
@@ -21,22 +21,22 @@
     "@adobe/aio-lib-customer-profile": "^3",
     "@adobe/aio-lib-events": "^4",
     "@adobe/aio-lib-files": "^4",
-    "@adobe/aio-lib-state": "^3",
+    "@adobe/aio-lib-state": "^5",
     "@adobe/aio-lib-target": "^4",
     "@adobe/aio-sdk-core": "^3"
   },
   "devDependencies": {
-    "@adobe/eslint-config-aio-lib-config": "^3.0.2",
+    "@adobe/eslint-config-aio-lib-config": "^4.0.0",
     "@adobe/gen-health-table": "^2.0.0",
     "codecov": "^3.6.1",
-    "eslint": "^8.46.0",
+    "eslint": "^8.57.1",
     "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.28.0",
-    "eslint-plugin-jest": "^27.2.3",
-    "eslint-plugin-jsdoc": "^42.0.0",
-    "eslint-plugin-n": "^15.7",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-jest": "^27.9.0",
+    "eslint-plugin-jsdoc": "^48.11.0",
+    "eslint-plugin-n": "^15.7.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-promise": "^6.6.0",
     "jest": "^29",
     "jsdoc-to-markdown": "^8.0.0",
     "typescript": "^5.1.6"
