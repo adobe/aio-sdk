@@ -26,3 +26,4 @@ notifications:
           - "kodiak-ticket"
         components:
           - name: "SDK Libraries" # Add any you'd like
+          - name: "Security"
